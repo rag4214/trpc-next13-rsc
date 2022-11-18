@@ -1,0 +1,29 @@
+{
+  "name": "trpc-next13-rsc",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "4.16.1",
+    "@trpc/client": "10.0.0-rc.8",
+    "@trpc/react-query": "10.0.0-rc.8",
+    "@trpc/server": "10.0.0-rc.8",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "superjson": "1.11.0",
+    "zod": "3.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.4",
+    "typescript": "4.9.3"
+  }
+}
